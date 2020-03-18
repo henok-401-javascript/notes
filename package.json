@@ -1,0 +1,26 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "[PR]() [heroku]()",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henok-401-javascript/notes.git"
+  },
+  "author": "henok gebremedhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henok-401-javascript/notes/issues"
+  },
+  "homepage": "https://github.com/henok-401-javascript/notes#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}

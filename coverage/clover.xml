@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1584516212550" clover="3.2.0">
-  <project timestamp="1584516212550" name="All files">
-    <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0" elements="6" coveredelements="2" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
+<coverage generated="1584577386034" clover="3.2.0">
+  <project timestamp="1584577386035" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="13" coveredelements="13" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
     <file name="input.js" path="/Users/henok/codefellows/401/note/lib/input.js">
-      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="9" count="1" type="stmt"/>
-      <line num="12" count="0" type="stmt"/>
-      <line num="13" count="0" type="stmt"/>
-      <line num="15" count="0" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="16" count="5" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="21" count="5" type="stmt"/>
+      <line num="22" count="8" type="stmt"/>
+      <line num="23" count="8" type="stmt"/>
+      <line num="24" count="8" type="stmt"/>
+      <line num="26" count="5" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

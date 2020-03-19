@@ -17,23 +17,28 @@ const goodInput = ['-a', 'This is a note!'];
 
 describe('the test will check those requirements', () => {
   it('will check empty value', () => {
-    let result = badInputA;
-    expect(result).toFalsy();
+    let result = new input(badInputA);
+    expect(result.valid()).toBeFalsy();
   })
   it('will check wrong value', () => {
-    expect()
+    let result = new input(badInputB);
+    expect(result.valid()).toBeFalsy();
   })
   it('will check wrong flag and input', () => {
-    expect()
+    let result = new input(badInputC);
+    expect(result.valid()).toBeFalsy();
   })
   it('will check wrong flag and empty string', () => {
-    expect()
+    let result = new input(badInputD);
+    expect(result.valid()).toBeFalsy();
   })
 })
 
 describe('having the required value', () => {
-  it('will will check with the required value', () => {
-    expect()
+  it('will check with the required value -a flag', () => {
+    let result = new input(goodInput);
+
+    expect(result.valid()).toBeTruthy();
   })
 })
 

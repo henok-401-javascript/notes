@@ -11,4 +11,4 @@ const Notes = require('./lib/notes');
 
 
 let parsedInput = new Input(process.argv.slice(2));
-let parsedNotes = new Notes(parsedInput)
+let parsedNotes = new Notes(parsedInput);

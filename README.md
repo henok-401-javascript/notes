@@ -1,7 +1,7 @@
-# LAB - Class xx
+# LAB - Class 02
 
 ## Project Name
-* Node Ecosystem
+* Classes, Inheritance, Functional Programming
 
 ### Author: Henok Gebremedhn
 
@@ -16,8 +16,8 @@
 
 #### How to initialize/run your application (where applicable)
 
-* npm start
-* node index.js -a "hello"
+* node 
+
 
 
 #### Tests

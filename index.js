@@ -4,11 +4,14 @@
   Instantiates an “Input” parser
   Sends properly parsed input to the Notes library for display
 */
-console.log('hello');
-
+const mongoose = require('mongoose');
+const noteModules = require('./lib/note.schema.js');
+const catagoryModules = require('./lib/category.schema.js');
 const Input = require('./lib/input');
 const Notes = require('./lib/notes');
 
 
+
 let parsedInput = new Input(process.argv.slice(2));
 let parsedNotes = new Notes(parsedInput);
+

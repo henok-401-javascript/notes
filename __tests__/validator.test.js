@@ -18,4 +18,12 @@ describe('validator of my booleans', () => {
     expect(validator.isNumber(func)).toBeFalsy();
     expect(validator.isNumber(bool)).toBeFalsy();
   })
+  it('string', () => {
+    expect(validator.isNumber(str)).toBeTruthy();
+    expect(validator.isNumber(num)).toBeFalsy();
+    expect(validator.isNumber(arr)).toBeFalsy();
+    expect(validator.isNumber(obj)).toBeFalsy();
+    expect(validator.isNumber(func)).toBeFalsy();
+    expect(validator.isNumber(bool)).toBeFalsy();
+  })
 })

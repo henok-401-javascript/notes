@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/henok-401-javascript/notes#readme",
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.5"
   }
 }

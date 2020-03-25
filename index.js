@@ -35,6 +35,7 @@ const dataOrganizer = async () => {
     try {
       let saveNote = await newNote.save();
       // console.log(saveNote);
+
     } catch (e) { console.error(e) };
 
   }

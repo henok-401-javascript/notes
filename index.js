@@ -54,7 +54,7 @@ const dataOrganizer = async () => {
 
 
   })
-  console.log('this is match', matchValue);
+  console.log(matchValue);
 
   mongoose.disconnect();
 }

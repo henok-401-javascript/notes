@@ -1,13 +1,13 @@
-# LAB - Class 02
+# LAB - Class 03
 
 ## Project Name
-* Classes, Inheritance, Functional Programming
+* Data Modeling 
 
 ### Author: Henok Gebremedhn
 
 ### Links and Resources
 
-- [submission PR](https://github.com/henok-401-javascript/notes/pull/5)
+- [submission PR](https://github.com/henok-401-javascript/notes/pull/8)
 
 
 ### Setup
@@ -16,8 +16,8 @@
 
 #### How to initialize/run your application (where applicable)
 
-* node index.js
-
+* node index.js - a "add note"
+* node index.js - c "add category"
 
 
 #### Tests
